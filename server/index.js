@@ -4,7 +4,7 @@ const dotenv = require("dotenv").config();
 // Local Dependencies
 const server = require("./config");
 const sequelize = require("../database/config");
-
+require("../database/config/relationships")
 // Evironment Variables.
 const { PORT, DEBUG } = process.env;
 
