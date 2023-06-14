@@ -22,5 +22,7 @@ Bookings.belongsTo(Invoices, {foreignKey: "invoiceId"})
 module.exports = {
     Reviews,
     User,
-    Post
+    Post,
+    Bookings,
+    Invoices
 }
