@@ -8,7 +8,7 @@ const sequelize = require("../config");
 const Bookings = sequelize.define(
   "bookings",
   {
-    id: {
+    bookingId: {
       type: DataTypes.UUID,
       defaultValue: DataTypes.UUIDV4,
       primaryKey: true,

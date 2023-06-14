@@ -8,18 +8,18 @@ const sequelize = require("../config");
 const Invoices = sequelize.define(
   "invoices",
   {
-    invoice_number: {
+    invoiceId: {
       type: DataTypes.UUID,
       defaultValue: DataTypes.UUIDV4,
       primaryKey: true,
     },
-    money_type: {
+    moneyType: {
       type: DataTypes.STRING(),
     },
     price: {
       type: DataTypes.FLOAT,
     },
-    creation_date: {
+    creationDate: {
       type: DataTypes.DATEONLY,
     },
     
