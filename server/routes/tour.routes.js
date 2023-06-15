@@ -1,9 +1,9 @@
 const { Router } = require("express");
 
 // Import the getPostController module
-const getTourController = require("../controllers/tours/getTourController");
-const postTourController = require("../controllers/tours/postTourController")
-const getTourById = require("../controllers//tours/getTourById")
+const getTourController = require("../controllers/tours/getTour.controller");
+const postTourController = require("../controllers/tours/postTour.controller")
+const getTourById = require("../controllers/tours/getTourById.controller")
 const getTourByName = require("../controllers/tours/getTourByName.controller");
 
 // Create a new instance of the Router class

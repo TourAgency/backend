@@ -5,11 +5,11 @@ const getTourById = async (req, res) => {
   try {
     const { id } = req.params; // Get the ID from the request parameter
 
-    // Check if the ID is not a number
-    if (typeof Number(id) !== "number") {
+    // Check if the ID 
+    if (id) {
       res.status(400).json({
         status: 400,
-        message: "The ID must be a number."
+        message: "You must send the required id."
       });
     }
 

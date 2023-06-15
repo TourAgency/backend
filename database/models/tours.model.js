@@ -9,7 +9,8 @@ const Tours = sequelize.define("tours",
 {   
     tour_id:{
         type: DataTypes.UUID,
-        defaultValue: DataTypes.UUIDV4
+        defaultValue: DataTypes.UUIDV4,
+        primaryKey: true
     },
     title:{
         type: DataTypes.STRING,        
