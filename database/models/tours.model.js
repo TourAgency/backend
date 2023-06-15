@@ -21,11 +21,19 @@ const Tours = sequelize.define("tours",
     },
     content: {
         type: DataTypes.TEXT,
-        allowNull: false
+        allowNull: true
     },
     language: {
         type: DataTypes.ENUM,
-        values: ["Español","English","Français","Italiano","Português","Deutsch"]
+        values: ["spanish", "english", "french", "italian", "portuguese", "german"]
+    }, 
+    category:{
+        type: DataTypes.ENUM,
+        values: ["eco_tourism", "camping", "share_excursion", "museum", "backpacking"]
+    },
+    background_image: {
+        type: DataTypes.STRING,
+        allowNull: false
     },
     duration: {
         type: DataTypes.STRING,
@@ -38,7 +46,7 @@ const Tours = sequelize.define("tours",
         type: DataTypes.ARRAY(DataTypes.DATE),
         allowNull: false
     },
-    cost: {
+    price: {
         type: DataTypes.FLOAT,
     },
     category:{

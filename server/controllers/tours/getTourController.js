@@ -1,6 +1,5 @@
 // Local Dependencies.
-const Tour = require("../../../database/models/tours.model");
-
+const Tours = require("../../../database/models/tours.model");
 
 const allTour = async (req, res) => {
 
@@ -17,11 +16,11 @@ const allTour = async (req, res) => {
         message: "Invalid page or limit!!!",
       });
 
-    // Set the offset.
+    // Set the offset
     const offset = (page - 1) * limit;
 
     // Get all the courses from the limit and offset.
-    const post = await Tour.findAll({
+    const tours = await Tours.findAll({
       limit: limit,
       offset: offset
     })
@@ -33,7 +32,7 @@ const allTour = async (req, res) => {
     // Return the courses.
     res.json({
       status: 200,
-      result: post,
+      result: tours,
       next: nextUrl
     });
     

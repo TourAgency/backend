@@ -11,5 +11,7 @@ const userRoutes = require("./user.routes");
 router.use("/tour", tourRoutes);
 // router.use("/user", userRoutes);
 
+router.use("/user", userRoutes)
+
 // Export the router module to be used in other parts of the application
 module.exports = router;
