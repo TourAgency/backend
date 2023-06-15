@@ -7,10 +7,7 @@ const sequelize = require("../config");
 // Users Model.
 const Posts = sequelize.define("posts",
 {   
-    post_id:{
-        type: DataTypes.UUID,
-        defaultValue: DataTypes.UUIDV4
-    },
+    
     title:{
         type: DataTypes.STRING,        
         allowNull: false
@@ -21,11 +18,19 @@ const Posts = sequelize.define("posts",
     },
     content: {
         type: DataTypes.TEXT,
-        allowNull: false
+        allowNull: true
     },
     language: {
         type: DataTypes.ENUM,
-        values: ["Español","English","Français","Italiano","Português","Deutsch"]
+        values: ["spanish", "english", "french", "italian", "portuguese", "german"]
+    }, 
+    category:{
+        type: DataTypes.ENUM,
+        values: ["eco_tourism", "camping", "share_excursion", "museum", "backpacking"]
+    },
+    background_image: {
+        type: DataTypes.STRING,
+        allowNull: false
     },
     duration: {
         type: DataTypes.STRING,
@@ -38,7 +43,7 @@ const Posts = sequelize.define("posts",
         type: DataTypes.ARRAY(DataTypes.DATE),
         allowNull: false
     },
-    cost: {
+    price: {
         type: DataTypes.FLOAT,
     }
 },
