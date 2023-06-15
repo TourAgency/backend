@@ -4,13 +4,15 @@ const Tours = require("../../../database/models/tours.model");
 const allTour = async (req, res) => {
 
   // Get the page and limit from the query.
-  const page = req.query.page;
+  let page = req.query.page;
   const limit = req.query.limit || 20;
 
   try {
 
     // Validate the page and limit.
-    if ( !page || page < 1 || limit < 1 || limit > 50 )
+    if(!page) page = 1;
+
+    if ( page < 1 || limit < 1 || limit > 50 )
       return res.status(412).json({
         status: 412,
         message: "Invalid page or limit!!!",
