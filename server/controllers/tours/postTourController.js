@@ -1,4 +1,4 @@
-const {Post} = require("../../../database/config/relationships")
+const {Tours} = require("../../../database/config/relationships")
 
 
 const postTourController = async (req,res) =>{
@@ -63,7 +63,7 @@ const postTourController = async (req,res) =>{
     
 
     
-      const post = await Post.findAll()
+      const post = await Tours.findAll()
 
     // If the course already exists, return an error.
     if (
@@ -76,7 +76,7 @@ const postTourController = async (req,res) =>{
         message: "Tour already exists!!!",
       });
 
-    const postCreated = await Post.create({
+    const postCreated = await Tours.create({
       title,
       description,
       language,
