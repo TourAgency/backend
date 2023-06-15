@@ -15,7 +15,7 @@ function main() {
 
     // 
     if (DEBUG === "true") {
-      await sequelize.sync({ force: false });
+      await sequelize.sync({ force: true });
     }
 
     // 
