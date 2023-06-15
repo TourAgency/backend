@@ -1,8 +1,8 @@
 // Local Dependencies.
-const Post = require("../../database/models/posts.model");
+const Tour = require("../../../database/models/tours.model");
 
 
-const allPost = async (req, res) => {
+const allTour = async (req, res) => {
 
   // Get the page and limit from the query.
   const page = req.query.page;
@@ -21,7 +21,7 @@ const allPost = async (req, res) => {
     const offset = (page - 1) * limit;
 
     // Get all the courses from the limit and offset.
-    const post = await Post.findAll({
+    const post = await Tour.findAll({
       limit: limit,
       offset: offset
     })
@@ -48,4 +48,4 @@ const allPost = async (req, res) => {
   }
 };
 
-module.exports = allPost;
+module.exports = allTour;

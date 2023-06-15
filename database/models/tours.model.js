@@ -5,9 +5,9 @@ const { DataTypes } = require("sequelize");
 const sequelize = require("../config");
 
 // Users Model.
-const Posts = sequelize.define("posts",
+const Tours = sequelize.define("tours",
 {   
-    post_id:{
+    tour_id:{
         type: DataTypes.UUID,
         defaultValue: DataTypes.UUIDV4
     },
@@ -40,11 +40,16 @@ const Posts = sequelize.define("posts",
     },
     cost: {
         type: DataTypes.FLOAT,
+    },
+    category:{
+        type: DataTypes.ENUM,
+        values: ["eco_tourism", "camping", "share_excursion", "museum", "backpacking"]
     }
 },
 {
-    freezeTableName: false
+    freezeTableName: false,
+    timestamps: false
 }
 
 )
-module.exports = Posts;
+module.exports = Tours;
