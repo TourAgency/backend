@@ -48,10 +48,6 @@ const Tours = sequelize.define("tours",
     },
     price: {
         type: DataTypes.FLOAT,
-    },
-    category:{
-        type: DataTypes.ENUM,
-        values: ["eco_tourism", "camping", "share_excursion", "museum", "backpacking"]
     }
 },
 {
