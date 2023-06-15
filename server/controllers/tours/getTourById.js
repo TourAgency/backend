@@ -1,4 +1,4 @@
-const Post = require("../../../database/models/posts.model");
+const Tours = require("../../../database/models/tours.model");
 
 // Function to get a tour by its ID
 const getTourById = async (req, res) => {
@@ -14,7 +14,7 @@ const getTourById = async (req, res) => {
     }
 
     // Search for the tour in the database by its ID
-    const tour = await Post.findOne({
+    const tour = await Tours.findOne({
       where: {
         id
       }
