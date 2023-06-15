@@ -1,5 +1,5 @@
 // Local Dependencies.
-const Post = require("../../database/models/posts.model");
+const Post = require("../../../database/models/posts.model");
 
 
 const allPost = async (req, res) => {
