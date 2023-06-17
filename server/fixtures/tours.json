@@ -1,0 +1,133 @@
+[
+    {
+    "title": "History and Urban Art in Yungay Neighborhood",
+    "description": "Tour description: The tour of Yungay neighborhood is a journey through Chile's history, from luxurious mansions of the early 20th century to contemporary urban art. A true hidden gem in the center of Santiago.",
+    "language": "spanish",
+    "category": "eco_tourism",
+    "background_image": "https://media.guruwalk.com/7yzs1n0vr3isahlvxbl9e4ksaiwe",
+    "duration": "2",
+    "time": "10:30:00",
+    "available_dates": ["2023-06-18", "2023-06-19", "2023-06-20"],
+    "price": "18"
+  },
+  {
+    "title": "Exploration of the Amazon Rainforest",
+    "description": "Tour description: The Amazon Rainforest exploration tour takes you deep into the heart of the world's largest tropical rainforest. Immerse yourself in the diverse ecosystem and discover its unique flora and fauna.",
+    "language": "english",
+    "category": "camping",
+    "background_image": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622577610/Exploration-Of-The-Amazon-Rainforest-A-Brief-History/Exploration-Of-The-Amazon-Rainforest-A-Brief-History.jpg",
+    "duration": "5",
+    "time": "08:00:00",
+    "available_dates": ["2023-06-25", "2023-06-26", "2023-06-27"],
+    "price": "50"
+  },
+  {
+    "title": "Discovery of the Loire Valley Castles",
+    "description": "Tour description: Embark on a journey to discover the magnificent castles of the Loire Valley. Dive into the history of France as you visit these architectural gems surrounded by beautiful gardens.",
+    "language": "french",
+    "category": "share_excursion",
+    "background_image": "https://travelfrancebucketlist.com/wp-content/uploads/2020/06/Chateau-de-Chenonceau-Loire-Valley.jpg",
+    "duration": "3",
+    "time": "09:00:00",
+    "available_dates": ["2023-07-02", "2023-07-03", "2023-07-04"],
+    "price": "35"
+  },
+  {
+    "title": "Exploration of Italian Cities",
+    "description": "Tour description: The exploration of Italian cities is a journey that will take you to discover the wonders of Italy's most famous cities, such as Rome, Florence, and Venice. Admire the unique art, architecture, and culture of these places.",
+    "language": "italian",
+    "category": "museum",
+    "background_image": "https://www.italia.it/content/dam/tdh/en/interests/italia/otto-citta-darte-italiane-da-scoprire-in-bicicletta/media/20210422155316-bici-ferrara-emilia-romagna-shutterstock-121762441.jpg",
+    "duration": "4",
+    "time": "10:00:00",
+    "available_dates": ["2023-07-08", "2023-07-09", "2023-07-10"],
+    "price": "40"
+  },
+  {
+    "title": "Discovery of Rio de Janeiro",
+    "description": "Tour description: The discovery of Rio de Janeiro is a journey that will take you to experience the highlights of this beautiful city. Enjoy the stunning beaches, visit the Christ the Redeemer statue, and immerse yourself in the rich Carioca culture.",
+    "language": "portuguese",
+    "category": "backpacking",
+    "background_image": "https://trip-brazil.com/wp-content/uploads/2017/07/Rio-de-janeiro-26.jpg",
+    "duration": "3",
+    "time": "14:00:00",
+    "available_dates": ["2023-07-15", "2023-07-16", "2023-07-17"],
+    "price": "25"
+  },
+  {
+    "title": "Historical Walking Tour in Berlin",
+    "description": "Tour description: Explore the rich history of Berlin on a fascinating walking tour. Visit iconic landmarks such as the Brandenburg Gate, Checkpoint Charlie, and the Berlin Wall, and learn about the city's captivating past.",
+    "language": "german",
+    "category": "eco_tourism",
+    "background_image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/c0/68/4c.jpg",
+    "duration": "2",
+    "time": "11:00:00",
+    "available_dates": ["2023-07-22", "2023-07-23", "2023-07-24"],
+    "price": "20"
+  },
+  {
+    "title": "Historical and Urban Art Tour in Yungay Neighborhood",
+    "description": "Tour description: The Yungay neighborhood tour is a journey through the history of Chile, from luxurious mansions from the early 20th century to contemporary urban art. A hidden gem in the heart of Santiago.",
+    "language": "german",
+    "category": "eco_tourism",
+    "background_image": "https://wp.inews.co.uk/wp-content/uploads/2019/06/Santiago-e1561386663689.jpg",
+    "duration": "2",
+    "time": "11:00:00",
+    "available_dates": ["2023-07-22", "2023-07-23", "2023-07-24"],
+    "price": "20"
+  },
+  {
+    "title": "History and urban art in the Yungay neighborhood",
+    "description": "Tour description: The tour of Yungay neighborhood is a journey through the history of Chile, from luxurious mansions from the early 20th century to contemporary urban art. A true hidden gem in the center of Santiago.",
+    "language": "english",
+    "category": "camping",
+    "background_image": "https://3.bp.blogspot.com/-cU4MV9YGut4/WIn7gzsH-gI/AAAAAAAA53U/kNow_qZV8F48cIUkK3t2I9Zw0v3sHXiogCLcB/s1600/Yungay00.docx.jpg",
+    "duration": "4",
+    "time": "09:00:00",
+    "available_dates": ["2023-07-29", "2023-07-30", "2023-07-31"],
+    "price": "60"
+  },
+  {
+    "title": "Exploring the Castles of the Loire Valley",
+    "description": "Tour description: Embark on a journey to discover the magnificent castles of the Loire Valley. Immerse yourself in the history of France as you visit these architectural gems surrounded by beautiful gardens.",
+    "language": "french",
+    "category": "share_excursion",
+    "background_image": "https://i0.wp.com/myvacationitineraries.com/media/2021/09/best-chateaux-loire-valley-fb.jpg?fit=1640%2C924&ssl=1",
+    "duration": "3",
+    "time": "10:00:00",
+    "available_dates": ["2023-08-05", "2023-08-06", "2023-08-07"],
+    "price": "35"
+  },
+  {
+    "title": "Exploration of Italian Cities",
+    "description": "Tour description: The exploration of Italian cities is a journey that will take you to discover the wonders of Italy's most famous cities, such as Rome, Florence, and Venice. Admire the unique art, architecture, and culture of these places.",
+    "language": "italian",
+    "category": "museum",
+    "background_image": "https://res.cloudinary.com/zicasso/image/fetch/ar_1.8,c_fill,g_auto,w_auto/e_sharpen:70/f_auto/https://images.zicasso.com/e926bb258a105a7790415b43c9ca5b37.jpg",
+    "duration": "4",
+    "time": "11:00:00",
+    "available_dates": ["2023-08-12", "2023-08-13", "2023-08-14"],
+    "price": "40"
+  },
+  {
+    "title": "Discovery of Rio de Janeiro",
+    "description": "Tour description: The discovery of Rio de Janeiro is a journey that will take you to experience the highlights of this beautiful city. Visit iconic landmarks such as the Christ the Redeemer, Sugarloaf Mountain, and the beaches of Copacabana and Ipanema.",
+    "language": "portuguese",
+    "category": "backpacking",
+    "background_image": "https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/vdlrlzwph1h2wtldpz7r",
+    "duration": "3",
+    "time": "12:00:00",
+    "available_dates": ["2023-08-19", "2023-08-20", "2023-08-21"],
+    "price": "30"
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+]
