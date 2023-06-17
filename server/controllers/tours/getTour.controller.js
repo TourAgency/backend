@@ -1,5 +1,6 @@
 // Local Dependencies.
 const Tours = require("../../../database/models/tours.model");
+const toursJson = require("../../fixtures/tours.json")
 
 const allTour = async (req, res) => {
 
@@ -8,6 +9,20 @@ const allTour = async (req, res) => {
   const limit = req.query.limit || 20;
 
   try {
+
+    toursJson.map(async (tour)=>{
+      await Tours.findOrCreate({where: { 
+        title: tour.title,
+        description: tour.description,
+        language: tour.language,
+        category: tour.category,
+        background_image: tour.background_image,
+        duration: tour.duration,
+        time: tour.time,
+        available_dates: tour.available_dates,
+        price: tour.price
+      }})
+    })
 
     // Validate the page and limit.
     if(!page) page = 1;

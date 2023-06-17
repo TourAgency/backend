@@ -17,11 +17,11 @@ const unlinkFile = (filePath) => {
 };
 
 const postTourController = async (req, res) => {
-  console.log(req.file);
-  console.log(req.body);
-
+ 
   let modification;
   try {
+
+
     // Destructure the tour.
     const { title, description, language, category, duration, time, available_dates, price } = req.body;
     const { background_image } = req.body;
